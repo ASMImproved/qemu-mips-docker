@@ -6,7 +6,7 @@ hellostring:  .ascii "Hello "
 .globl main
 
 main:
-  li  $a0, 0
+  li  $a0, 1
   la  $a1, hellostring
   li  $a2, 14
   li  $v0, 4004
